@@ -1,23 +1,28 @@
 public class Main {
 
-    public String text;
-    public Scanner Input;
+	public int width = 100;
+	public int height = 50;
+	public String[][] display = new String[width][height];
 
-    public static void main(String args[]){
-        try
-	    {
-		  input = new Scanner(file);
-	    }
-	  catch (FileNotFoundException ex)
-	  {
-		  System.out.println("*** Cannot open " + pathname + " ***");
-		  System.exit(1);  // quit the program
-	  } 
+	public static void main(String args[]){
+		Sprite man = new Sprite("Sprites.txt");
 
-    String[] array2 = new String[n];
-    int d = 0;
-    
-	  while(input.hasNext()){
-		  String word = input.next();
-    }
+		man.printSprite();
+	}
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
+
+
+
