@@ -1,3 +1,4 @@
+/*
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -12,8 +13,8 @@ public class Sprite {
 
     public Sprite(String fileName) {
 
-        //File fileFile = new File( spriteFolder + "\\" + fileName);
-        File fileFile = new File("C:\\Users\\jkcca\\IdeaProjects\\SpriteGame\\src\\Sprites\\Sprites.txt");
+        File fileFile = new File( spriteFolder + "\\" + fileName);
+        //File fileFile = new File("C:\\Users\\jkcca\\IdeaProjects\\SpriteGame\\src\\Sprites\\Sprites.txt");
 
         try {
             file = new Scanner(fileFile);
@@ -52,3 +53,4 @@ public class Sprite {
     }
 
 }
+*/
